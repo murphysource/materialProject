@@ -17,6 +17,7 @@ function App() {
           <Navbar />
           <Routes>
             <Route exact path ="/" component={Home} />
+            <Route exact path ="/store" component={Store} />
           </Routes>
           <Outlet />
         </Grid>

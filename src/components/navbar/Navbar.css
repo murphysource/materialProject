@@ -1,0 +1,18 @@
+nav {
+    position: fixed;
+    display: flex;
+    /* top: 2%; */
+  }
+  nav a {
+    margin-right: 20px;
+    text-decoration: none;
+    color: #575757;
+  }
+  nav a:hover {
+    margin-right: 20px;
+    text-decoration: none;
+    color: #ec704c;
+  }
+  nav a.active {
+    color: #ec704c;
+  }
